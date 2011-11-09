@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>zotero</groupId>
+	<artifactId>zotero</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>libreoffice</groupId>
+			<artifactId>libreoffice-java_uno</artifactId>
+			<version>N</version>
+			<scope>system</scope>
+			<systemPath>/usr/share/java/java_uno.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>libreoffice</groupId>
+			<artifactId>libreoffice-juh</artifactId>
+			<version>N</version>
+			<scope>system</scope>
+			<systemPath>/usr/share/java/juh.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>libreoffice</groupId>
+			<artifactId>libreoffice-jurt</artifactId>
+			<version>N</version>
+			<scope>system</scope>
+			<systemPath>/usr/share/java/jurt.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>libreoffice</groupId>
+			<artifactId>libreoffice-ridl</artifactId>
+			<version>N</version>
+			<scope>system</scope>
+			<systemPath>/usr/share/java/ridl.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>libreoffice</groupId>
+			<artifactId>libreoffice-unoloader</artifactId>
+			<version>N</version>
+			<scope>system</scope>
+			<systemPath>/usr/share/java/unoloader.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>libreoffice</groupId>
+			<artifactId>libreoffice-unoil</artifactId>
+			<version>N</version>
+			<scope>system</scope>
+			<systemPath>/usr/share/libreoffice/basis3.4/program/classes/unoil.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.8.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+	</dependencies>
+
+</project>
